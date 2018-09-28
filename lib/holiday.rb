@@ -15,7 +15,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   holiday_supplies[:winter][:christmas]).to include("Balloons")
   holiday_supplies[:winter][:new_years]).to include("Balloons")
 end
-end
+
 
 
 def add_supply_to_memorial_day(holiday_hash, supply)
